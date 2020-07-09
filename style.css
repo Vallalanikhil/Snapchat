@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+/*-
+logo img
+nav-link text
+larger text in header(h1)
+section,footer(h4)
+-*/
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: white;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 0px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+nav ul li {
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-size: small;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+header {
+  background: yellow;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  font-weight: 1200;
+  padding: 10px;
+}
+
+#img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+h4 {
+  font-weight: 600;
+}
+header li {
+  text-decoration: none;
+}
+.link-button {
+  background: white;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+}
+section div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+section ul {
+  font-size: small;
+  font-weight: lighter;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 5px;
+}
+section article option {
+  font-size: small;
+  font-weight: lighter;
+}
+footer {
+  background: rgb(31, 28, 28);
+  color: white;
+  font-size: smaller;
+  font-weight: lighter;
+  padding: 10px;
+}
+footer  ul {
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  list-style: none;
+  padding: 0px;
+}
